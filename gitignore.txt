@@ -1,0 +1,20 @@
+# Python Virtual Environment
+stegenv/
+
+# Python compiled bytecode
+__pycache__/
+*.pyc
+
+# IDE-specific files (e.g., VS Code)
+.vscode/
+
+# Operating System specific files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Generated output images
+# These are the images created by your steganography tool.
+# Only commit 'cover_image.png' or your original input images.
+images/my_stego_image.png
+images/stego_image.png
+images/stego_image_test.png
